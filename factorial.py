@@ -4,5 +4,8 @@ def fact(n):
 	else:
 		return n*fact(n-1)
 
-n=int(input("Enter a number: "))
-print(f"The factorial of {n} is -> {fact(n)}")
+print("Enter a number ")
+n=int(input())
+p=fact(n)
+print(f"The factorial of {n} is -> {p}")
+print("the exceution gis successful")
